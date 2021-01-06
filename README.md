@@ -1,16 +1,22 @@
-### Hi there 👋
+## Cara Install
+Jalankan Perintah berikut untuk mendownload data dari repository github
 
-<!--
-**KarelNatalia/karelnatalia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```sh
+$ git clone https://github.com/KarelNatalia/karelnatalia.git && cd karelnatalia
+```
 
-Here are some ideas to get you started:
+# Cara Menjalankan
+### Cara Pertama
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```sh
+$ docker build -t 195410107_karell ./
+$ docker run -dit --name 195410107_karell_runapp -p 8000:80 195410107_karell
+```
+
+lalu buka browser dengan url `http://locahost:8000` untuk melihat hasil nya.
+
+## Cara Kedua
+```sh
+$ docker run -dit --name 195410107_karell_runapp -p 8000:80 123karel/karellnatalian123
+```
+lalu buka browser dengan url `http://locahost:8000` untuk melihat hasil nya.
