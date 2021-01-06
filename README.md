@@ -17,6 +17,6 @@ lalu buka browser dengan url `http://locahost:8000` untuk melihat hasil nya.
 
 ## Cara Kedua
 ```sh
-$ docker run -dit --name 195410107_karell_runapp -p 8000:80 123karel/karellnatalian123
+$ docker run -dit --name 195410107_karell_runapp -p 8000:80 123karel/195410107_karell:latest
 ```
 lalu buka browser dengan url `http://locahost:8000` untuk melihat hasil nya.
